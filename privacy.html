@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ScoreBlur - Privacy Policy</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      font-size: 15px;
+      color: #1d1b20;
+      background: #f3edf7;
+      min-height: 100vh;
+      -webkit-font-smoothing: antialiased;
+    }
+    .privacy-container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 32px 24px;
+    }
+    .privacy-content {
+      background: #fff;
+      border-radius: 28px;
+      padding: 40px;
+      box-shadow: 0 1px 3px rgba(0,0,0,.12);
+    }
+    .privacy-content h1 {
+      font-size: 24px;
+      font-weight: 600;
+      color: #1d1b20;
+      margin-bottom: 8px;
+    }
+    .last-updated {
+      font-size: 13px;
+      color: #49454f;
+      margin-bottom: 32px;
+    }
+    .privacy-content section { margin-bottom: 28px; }
+    .privacy-content section:last-child { margin-bottom: 0; }
+    .privacy-content h2 {
+      font-size: 17px;
+      font-weight: 600;
+      color: #1d1b20;
+      margin-bottom: 10px;
+    }
+    .privacy-content p {
+      font-size: 15px;
+      color: #49454f;
+      line-height: 1.7;
+      margin-bottom: 8px;
+    }
+    .privacy-content p:last-child { margin-bottom: 0; }
+    .privacy-content ul {
+      list-style: none;
+      padding-left: 0;
+      margin-top: 8px;
+    }
+    .privacy-content ul li {
+      position: relative;
+      padding-left: 20px;
+      margin-bottom: 8px;
+      font-size: 15px;
+      color: #49454f;
+      line-height: 1.6;
+    }
+    .privacy-content ul li::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 10px;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #6750a4;
+    }
+    .permissions-list li {
+      padding: 16px 20px;
+      background: #f3edf7;
+      border-radius: 12px;
+      margin-bottom: 12px;
+    }
+    .permissions-list li::before { display: none; }
+    .permissions-list li strong {
+      display: block;
+      font-size: 15px;
+      font-weight: 600;
+      color: #1d1b20;
+      margin-bottom: 4px;
+    }
+    .permissions-list li p { margin-bottom: 0; font-size: 13px; }
+    .privacy-footer {
+      margin-top: 32px;
+      text-align: center;
+    }
+    .privacy-footer p { font-size: 13px; color: #49454f; }
+    a { color: #6750a4; }
+  </style>
+</head>
+<body>
+  <div class="privacy-container">
+    <main class="privacy-content">
+      <h1>Privacy Policy</h1>
+      <p class="last-updated">Last updated: April 6, 2026</p>
+
+      <section>
+        <h2>Overview</h2>
+        <p>ScoreBlur is a browser extension that automatically blurs sports scores to help you avoid spoilers. Your privacy is important to us, and this policy explains how we handle your data.</p>
+      </section>
+
+      <section>
+        <h2>Data Collection</h2>
+        <p><strong>ScoreBlur does not automatically collect, store, or transmit any personal data.</strong></p>
+        <p>We do not track your browsing activity. All score detection and blurring happens locally in your browser. No page content is ever sent to external servers.</p>
+        <p>The only exception is the <strong>optional feedback form</strong> described below, which you must actively choose to use.</p>
+      </section>
+
+      <section>
+        <h2>Feedback Form</h2>
+        <p>ScoreBlur includes an optional feedback form in the Settings page. When you choose to submit feedback, the following data is sent to Google Forms:</p>
+        <ul>
+          <li>Feedback type (Bug, Feature Request, or Other)</li>
+          <li>Website URL where the issue occurred (if you provide it)</li>
+          <li>Your description of the issue or suggestion</li>
+          <li>Extension version number</li>
+        </ul>
+        <p>This data is transmitted only when you explicitly click "Send Feedback." No data is sent automatically.</p>
+      </section>
+
+      <section>
+        <h2>Payment Processing</h2>
+        <p>ScoreBlur offers a <strong>7-day free trial</strong> after installation, followed by a one-time payment to continue using the extension.</p>
+        <p>Payments are processed through <strong>Dodo Payments</strong>, a third-party service powered by <strong>Stripe</strong>. When you make a purchase:</p>
+        <ul>
+          <li>You are redirected to a secure Stripe checkout page hosted on dodopayments.com</li>
+          <li>Your payment details (credit card, billing info) are handled entirely by Stripe — ScoreBlur never sees or stores this information</li>
+          <li>Dodo Payments returns only your payment status (paid or not paid) to the extension</li>
+        </ul>
+        <p>ScoreBlur stores a minimal license record locally in your browser containing: payment status, trial end date, install date, and the timestamp of the last license check. This data never leaves your browser except during periodic license verification requests to Dodo Payments servers.</p>
+      </section>
+
+      <section>
+        <h2>Local Storage</h2>
+        <p>ScoreBlur uses Chrome's local storage API to save your preferences and license information, such as:</p>
+        <ul>
+          <li>Whether the extension is enabled or disabled</li>
+          <li>Temporary pause settings (duration and type)</li>
+          <li>License status (paid/trial, trial end date, install date, last verification timestamp)</li>
+        </ul>
+        <p>This data never leaves your browser and is not accessible to any third party, except for periodic license verification with Dodo Payments as described above.</p>
+      </section>
+
+      <section>
+        <h2>Development Logging</h2>
+        <p>Development builds of ScoreBlur include diagnostic logging stored temporarily in your browser's session storage. These logs are <strong>never transmitted</strong> to any server and are automatically cleared when your browser session ends. Production builds (the version you install from the Chrome Web Store) do not include this logging.</p>
+      </section>
+
+      <section>
+        <h2>Permissions Explained</h2>
+        <ul class="permissions-list">
+          <li>
+            <strong>activeTab</strong>
+            <p>Allows ScoreBlur to access the content of the currently active tab to detect and blur scores. This permission is limited to the active tab only.</p>
+          </li>
+          <li>
+            <strong>storage</strong>
+            <p>Used to save your extension preferences locally in your browser.</p>
+          </li>
+          <li>
+            <strong>alarms</strong>
+            <p>Used to manage timed pause functionality (e.g., pause for 1 hour) and periodic license verification.</p>
+          </li>
+          <li>
+            <strong>sidePanel</strong>
+            <p>Provides an optional side panel interface for quick access to ScoreBlur controls without leaving your current page.</p>
+          </li>
+          <li>
+            <strong>Host permissions (all URLs)</strong>
+            <p>Required to detect and blur scores on any sports website you visit. ScoreBlur only processes page content to find score patterns — it does not read, store, or transmit any other page data.</p>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Third-Party Services</h2>
+        <ul>
+          <li><strong>Google Forms</strong> — Used to receive optional user feedback. No data is sent unless you actively submit the feedback form.</li>
+          <li><strong>Dodo Payments / Stripe</strong> — Used for payment processing and license verification. Payment details are handled entirely by Stripe; ScoreBlur only receives your payment status.</li>
+        </ul>
+        <p>ScoreBlur does not use any analytics platforms, advertising networks, or tracking services.</p>
+      </section>
+
+      <section>
+        <h2>Changes to This Policy</h2>
+        <p>If we update this privacy policy, the changes will be reflected on this page with an updated date. Significant changes will be communicated through the extension update notes.</p>
+      </section>
+
+      <section>
+        <h2>Contact</h2>
+        <p>If you have questions about this privacy policy, you can reach us at <a href="mailto:thornografi555@gmail.com">thornografi555@gmail.com</a> or through the extension's built-in feedback form in the Settings page.</p>
+      </section>
+    </main>
+
+    <footer class="privacy-footer">
+      <p>ScoreBlur &copy; 2026</p>
+    </footer>
+  </div>
+</body>
+</html>
